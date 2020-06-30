@@ -25,6 +25,19 @@
   },
   "legalEntity": {
     "legalName": "Winding Tree",
-    "alternativeName": "Winding Tree Marketplace"
+    "alternativeName": "Winding Tree Marketplace",
+    "legalIdentifier": "CHE415.029.859",
+    "legalType": "Foundation",
+    "identifiers": [],
+    "registeredAddress": {
+      "country": "CH",
+      "subdivision": "CHE",
+      "locality": "Zug",
+      "postalCode": "6300",
+      "streetAddress": "Gubelstrasse",
+      "premise": "11"
+    },
+    "locations": [],
+    "contacts": []
   }
 }
