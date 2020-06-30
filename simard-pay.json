@@ -17,7 +17,9 @@
       "docs": "https://staging.api.simard.io/api/docs/"
     }
   ],
-  "trust": {},
+  "trust": {
+    "assertions": []
+  },
   "organizationalUnit": {
     "name": "Simard Pay Ropsten",
     "type": [
