@@ -23,6 +23,18 @@
     "type": [
       "payment processor"
     ],
-    "description": "Simard Pay is a payment processor for Winding Tree Marketplace"
+    "description": "Simard Pay is a payment processor for Winding Tree Marketplace",
+    "address": {
+      "country": "EE",
+      "subdivision": "EE-37",
+      "locality": "Tallinn",
+      "postalCode": "10115",
+      "streetAddress": "Tartu mnt",
+      "premise": "67/1-13b"
+    },
+    "contacts": [],
+    "media": {
+      "logo": "https://glider.travel/images/logo_violet.png"
+    }
   }
 }
