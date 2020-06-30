@@ -23,6 +23,20 @@
     "type": [
       "payment processor"
     ],
-    "description": "Simard Pay on Ropsten Testnet"
+    "description": "Simard Pay on Ropsten Testnet",
+    "address": {
+      "country": "",
+      "subdivision": "",
+      "locality": "",
+      "postalCode": "",
+      "streetAddress": "",
+      "premise": "",
+      "gps": "",
+      "geocodes": []
+    },
+    "contacts": [],
+    "media": {
+      "logo": "https://simard.io/images/logo.png"
+    }
   }
 }
