@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://windingtree.com/ns/orgid/v1"
+  ],
+  "id": "did:orgid:0xe2c2ca3e9bd7c371c57cb97c50d6006b3e6b4eb26356894ecf0b50afc667c672",
+  "created": "2020-06-30T10:08:40.518Z",
+  "updated": "2020-06-30T10:08:40.518Z",
+  "publicKey": [],
+  "service": [],
+  "trust": {
+    "assertions": [
+      {
+        "type": "dns",
+        "claim": "windingtree.com",
+        "proof": "TXT"
+      },
+      {
+        "type": "domain",
+        "claim": "windingtree.com",
+        "proof": "https://windingtree.com/orgid.txt"
+      }
+    ],
+    "credentials": []
+  },
+  "legalEntity": {
+    "legalName": "Winding Tree",
+    "alternativeName": "Winding Tree Marketplace"
+  }
+}
