@@ -1,0 +1,57 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://windingtree.com/ns/orgid/v1"
+  ],
+  "id": "did:orgid:0xa8eacc80e138a30cd86002f12f5f324a3f2214b1fefc833435901ab6189579bb",
+  "created": "2020-06-30T10:29:40.353Z",
+  "updated": "2020-06-30T10:29:40.353Z",
+  "publicKey": [
+    {
+      "id": "did:orgid:0xa8eacc80e138a30cd86002f12f5f324a3f2214b1fefc833435901ab6189579bb#webserver",
+      "type": "secp256k1",
+      "controller": "did:orgid:0xa8eacc80e138a30cd86002f12f5f324a3f2214b1fefc833435901ab6189579bb",
+      "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAE9n8bEiQWROE53XZDHdkCVTno/qLIAcdOLZm6Y/d2oHZBuJ4LcSTOtzYW+jx4GQHSkCDjGd0N00xzNoW7+ilg8A==",
+      "note": "Glider Aggregator Webserver Key"
+    },
+    {
+      "id": "did:orgid:0xa8eacc80e138a30cd86002f12f5f324a3f2214b1fefc833435901ab6189579bb#admin",
+      "type": "secp256k1",
+      "controller": "did:orgid:0xa8eacc80e138a30cd86002f12f5f324a3f2214b1fefc833435901ab6189579bb",
+      "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEfzxMGz0YmWNQ/tdw9+QbQSAk+rjUruXeezP2iZpegTdYxeVqsGI3ATK/z7dc3bJykWDFa/Ka98EtFlOkhAwERA==",
+      "note": "Glider Aggregator Admin Key"
+    }
+  ],
+  "service": [
+    {
+      "id": "did:orgid:0xa8eacc80e138a30cd86002f12f5f324a3f2214b1fefc833435901ab6189579bb#apiv1",
+      "serviceEndpoint": "https://production.b2b.glider.travel/api/v1",
+      "type": "glider",
+      "version": "1",
+      "description": "Glider Aggregator Search and Book API",
+      "docs": "https://production.b2b.glider.travel/api/docs/"
+    }
+  ],
+  "trust": {
+    "assertions": [
+      {
+        "type": "dns",
+        "claim": "glider.travel",
+        "proof": "TXT"
+      },
+      {
+        "type": "domain",
+        "claim": "glider.travel",
+        "proof": "https://glider.travel/orgid.txt"
+      }
+    ]
+  },
+  "organizationalUnit": {
+    "name": "Glider Aggregator",
+    "type": [
+      "travel aggregator"
+    ],
+    "description": "Glider Aggregator is an open-source travel aggregator",
+    "longDescription": "Glider Aggregator is an open-source travel aggregator. It normalizes different hotel and airline API formats."
+  }
+}
