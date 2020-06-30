@@ -52,6 +52,23 @@
       "travel aggregator"
     ],
     "description": "Glider Aggregator is an open-source travel aggregator",
-    "longDescription": "Glider Aggregator is an open-source travel aggregator. It normalizes different hotel and airline API formats."
+    "longDescription": "Glider Aggregator is an open-source travel aggregator. It normalizes different hotel and airline API formats.",
+    "address": {
+      "country": "EE",
+      "subdivision": "EE-37",
+      "locality": "Tallinn",
+      "postalCode": "10115",
+      "streetAddress": "Tartu mnt",
+      "premise": "67/1-13b"
+    },
+    "contacts": [
+      {
+        "function": "Contact",
+        "email": "hello@glider.travel"
+      }
+    ],
+    "media": {
+      "logo": "https://glider.travel/images/logo_violet.png"
+    }
   }
 }
