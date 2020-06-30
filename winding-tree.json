@@ -26,6 +26,16 @@
   "legalEntity": {
     "legalName": "Winding Tree Ropsten",
     "alternativeName": "Winding Tree Marketplace Ropsten",
-    "legalIdentifier": "WT"
+    "legalIdentifier": "WT",
+    "legalType": "Limited Company",
+    "identifiers": [],
+    "registeredAddress": {
+      "country": "EE",
+      "subdivision": "EE-37",
+      "locality": "Tallinn",
+      "postalCode": "10115",
+      "streetAddress": "Tartu mnt 67/1-13b",
+      "premise": ""
+    }
   }
 }
