@@ -18,7 +18,13 @@
     }
   ],
   "trust": {
-    "assertions": []
+    "assertions": [
+      {
+        "type": "domain",
+        "claim": "simard.io",
+        "proof": "https://simard.io/orgid-ropsten.txt"
+      }
+    ]
   },
   "organizationalUnit": {
     "name": "Simard Pay Ropsten",
