@@ -58,6 +58,8 @@
       "geocodes": []
     },
     "contacts": [],
-    "media": {}
+    "media": {
+      "logo": ""
+    }
   }
 }
