@@ -25,6 +25,7 @@
   },
   "legalEntity": {
     "legalName": "Winding Tree Ropsten",
-    "alternativeName": "Winding Tree Marketplace Ropsten"
+    "alternativeName": "Winding Tree Marketplace Ropsten",
+    "legalIdentifier": "WT"
   }
 }
