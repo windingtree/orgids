@@ -3,9 +3,9 @@
     "https://www.w3.org/ns/did/v1",
     "https://windingtree.com/ns/orgid/v1"
   ],
-  "id": "did:orgid:0xe2c2ca3e9bd7c371c57cb97c50d6006b3e6b4eb26356894ecf0b50afc667c672",
-  "created": "2020-06-30T10:08:40.518Z",
-  "updated": "2020-06-30T10:08:40.518Z",
+  "id": "did:orgid:0x66ce8f205d0e0614a181f7b135582fe3520ec95758cb4bded26fc32cdd9ecf92",
+  "created": "2020-06-30T14:37:00.416Z",
+  "updated": "2020-06-30T14:37:00.416Z",
   "publicKey": [],
   "service": [],
   "trust": {
