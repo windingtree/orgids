@@ -45,6 +45,7 @@
     "name": "Glider Aggregator Ropsten",
     "type": [
       "travel aggregator"
-    ]
+    ],
+    "description": ""
   }
 }
