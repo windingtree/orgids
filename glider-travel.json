@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://windingtree.com/ns/orgid/v1"
+  ],
+  "id": "did:orgid:0x34dea2f4f739c43af35f6ffa82284d28280997ad26408b9e3d61525ec95b442e",
+  "created": "2020-06-30T10:30:09.721Z",
+  "updated": "2020-06-30T10:30:09.721Z",
+  "publicKey": [
+    {
+      "id": "did:orgid:0x34dea2f4f739c43af35f6ffa82284d28280997ad26408b9e3d61525ec95b442e#webserver",
+      "type": "secp256k1",
+      "controller": "did:orgid:0x34dea2f4f739c43af35f6ffa82284d28280997ad26408b9e3d61525ec95b442e",
+      "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAE/7GpAW4+se9gZOFPtwk63ZhV1nX6M0UobMYO6FMAnON6vCbglyOaRzEltugkp6GrM8LZ6is0rMBMAXCvb9FH2g==",
+      "note": "Glider B2C Webserver Key"
+    }
+  ],
+  "service": [],
+  "trust": {
+    "assertions": [
+      {
+        "type": "dns",
+        "claim": "glider.travel",
+        "proof": "TXT"
+      },
+      {
+        "type": "domain",
+        "claim": "glider.travel",
+        "proof": "https://glider.travel/orgid.txt"
+      }
+    ],
+    "credentials": []
+  },
+  "organizationalUnit": {
+    "name": "Glider Travel",
+    "type": [
+      "travel agency"
+    ],
+    "description": "Glider Travel is World's First Open-Source Travel Agency",
+    "longDescription": "Glider Travel is an example of travel agency connected to Winding Tree Marketplace.",
+    "address": {},
+    "openingHours": [],
+    "contacts": [],
+    "media": {}
+  }
+}
