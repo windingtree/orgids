@@ -38,9 +38,22 @@
     ],
     "description": "Glider Travel is World's First Open-Source Travel Agency",
     "longDescription": "Glider Travel is an example of travel agency connected to Winding Tree Marketplace.",
-    "address": {},
-    "openingHours": [],
-    "contacts": [],
-    "media": {}
+    "address": {
+      "country": "EE",
+      "subdivision": "EE-37",
+      "locality": "Tallinn",
+      "postalCode": "10115",
+      "streetAddress": "Tartu mnt",
+      "premise": "67/1-13b"
+    },
+    "contacts": [
+      {
+        "function": "Contact",
+        "email": "hello@glider.travel"
+      }
+    ],
+    "media": {
+      "logo": "https://glider.travel/images/logo_violet.png"
+    }
   }
 }
