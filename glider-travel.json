@@ -28,6 +28,21 @@
     "name": "Glider Travel Ropsten",
     "type": [
       "travel agency"
-    ]
+    ],
+    "description": "",
+    "address": {
+      "country": "",
+      "subdivision": "",
+      "locality": "",
+      "postalCode": "",
+      "streetAddress": "",
+      "premise": "",
+      "gps": "",
+      "geocodes": []
+    },
+    "contacts": [],
+    "media": {
+      "logo": "https://glider.travel/images/logo_white.png"
+    }
   }
 }
