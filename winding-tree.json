@@ -18,13 +18,13 @@
       {
         "type": "domain",
         "claim": "windingtree.com",
-        "proof": "https://windingtree.com/orgid.txt"
+        "proof": "https://windingtree.com/orgid-ropsten.txt"
       }
     ],
     "credentials": []
   },
   "legalEntity": {
-    "legalName": "Winding Tree",
-    "alternativeName": "Winding Tree Marketplace"
+    "legalName": "Winding Tree Ropsten",
+    "alternativeName": "Winding Tree Marketplace Ropsten"
   }
 }

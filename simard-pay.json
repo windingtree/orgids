@@ -13,16 +13,16 @@
       "serviceEndpoint": "https://staging.api.simard.io/api/v1",
       "type": "simard",
       "version": "1",
-      "description": "Simard Pay API",
+      "description": "Simard Pay API Ropsten",
       "docs": "https://staging.api.simard.io/api/docs/"
     }
   ],
   "trust": {},
   "organizationalUnit": {
-    "name": "Simard Pay",
+    "name": "Simard Pay Ropsten",
     "type": [
       "payment processor"
     ],
-    "description": "Simard Pay is a payment processor for Winding Tree Marketplace"
+    "description": "Simard Pay on Ropsten Testnet"
   }
 }

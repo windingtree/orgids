@@ -18,14 +18,14 @@
       {
         "type": "domain",
         "claim": "simard.io",
-        "proof": "https://simard.io/orgid.txt"
+        "proof": "https://simard.io/orgid-ropsten.txt"
       }
     ],
     "credentials": []
   },
   "legalEntity": {
-    "legalName": "Simard OÜ",
-    "alternativeName": "Simard",
+    "legalName": "Simard OÜ Ropsten",
+    "alternativeName": "Simard Ropsten",
     "legalIdentifier": "EE102233584",
     "identifiers": [
       {
