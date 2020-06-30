@@ -3,28 +3,28 @@
     "https://www.w3.org/ns/did/v1",
     "https://windingtree.com/ns/orgid/v1"
   ],
-  "id": "did:orgid:0x38a6a9ed6750d4022586a7e523c8a038423711e6739146e23307bbd1e62c1fe6",
+  "id": "did:orgid:0x94bf5a57b850a35b4d1d7b59f663ce3a8a76fd9928ef2067cc772fc97fb0ad75",
   "created": "2020-06-30T14:37:01.895Z",
   "updated": "2020-06-30T14:37:01.895Z",
   "publicKey": [
     {
-      "id": "did:orgid:0x38a6a9ed6750d4022586a7e523c8a038423711e6739146e23307bbd1e62c1fe6#webserver",
+      "id": "did:orgid:0x94bf5a57b850a35b4d1d7b59f663ce3a8a76fd9928ef2067cc772fc97fb0ad75#webserver",
       "type": "secp256k1",
-      "controller": "did:orgid:0x38a6a9ed6750d4022586a7e523c8a038423711e6739146e23307bbd1e62c1fe6",
+      "controller": "did:orgid:0x94bf5a57b850a35b4d1d7b59f663ce3a8a76fd9928ef2067cc772fc97fb0ad75",
       "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAE9n8bEiQWROE53XZDHdkCVTno/qLIAcdOLZm6Y/d2oHZBuJ4LcSTOtzYW+jx4GQHSkCDjGd0N00xzNoW7+ilg8A==",
       "note": "Glider Aggregator Webserver Key"
     },
     {
-      "id": "did:orgid:0x38a6a9ed6750d4022586a7e523c8a038423711e6739146e23307bbd1e62c1fe6#admin",
+      "id": "did:orgid:0x94bf5a57b850a35b4d1d7b59f663ce3a8a76fd9928ef2067cc772fc97fb0ad75#admin",
       "type": "secp256k1",
-      "controller": "did:orgid:0x38a6a9ed6750d4022586a7e523c8a038423711e6739146e23307bbd1e62c1fe6",
+      "controller": "did:orgid:0x94bf5a57b850a35b4d1d7b59f663ce3a8a76fd9928ef2067cc772fc97fb0ad75",
       "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEfzxMGz0YmWNQ/tdw9+QbQSAk+rjUruXeezP2iZpegTdYxeVqsGI3ATK/z7dc3bJykWDFa/Ka98EtFlOkhAwERA==",
       "note": "Glider Aggregator Admin Key"
     }
   ],
   "service": [
     {
-      "id": "did:orgid:0x38a6a9ed6750d4022586a7e523c8a038423711e6739146e23307bbd1e62c1fe6#apiv1",
+      "id": "did:orgid:0x94bf5a57b850a35b4d1d7b59f663ce3a8a76fd9928ef2067cc772fc97fb0ad75#apiv1",
       "serviceEndpoint": "https://staging.b2b.glider.travel/api/v1",
       "type": "glider",
       "version": "1",

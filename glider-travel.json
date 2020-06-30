@@ -3,14 +3,14 @@
     "https://www.w3.org/ns/did/v1",
     "https://windingtree.com/ns/orgid/v1"
   ],
-  "id": "did:orgid:0x15f870226785884d443b2eb405a59b75fa3b454ab30b50d1c4300047d0346c6e",
+  "id": "did:orgid:0xf94c83b1da7bc36989b6a4f25e51ce66dd0fcd88bae1e8486495bbc03e767229",
   "created": "2020-06-30T14:37:03.942Z",
   "updated": "2020-06-30T14:37:03.942Z",
   "publicKey": [
     {
-      "id": "did:orgid:0x15f870226785884d443b2eb405a59b75fa3b454ab30b50d1c4300047d0346c6e#webserver",
+      "id": "did:orgid:0xf94c83b1da7bc36989b6a4f25e51ce66dd0fcd88bae1e8486495bbc03e767229#webserver",
       "type": "secp256k1",
-      "controller": "did:orgid:0x15f870226785884d443b2eb405a59b75fa3b454ab30b50d1c4300047d0346c6e",
+      "controller": "did:orgid:0xf94c83b1da7bc36989b6a4f25e51ce66dd0fcd88bae1e8486495bbc03e767229",
       "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAE/7GpAW4+se9gZOFPtwk63ZhV1nX6M0UobMYO6FMAnON6vCbglyOaRzEltugkp6GrM8LZ6is0rMBMAXCvb9FH2g==",
       "note": "Glider B2C Webserver Key"
     }

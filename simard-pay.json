@@ -3,13 +3,13 @@
     "https://www.w3.org/ns/did/v1",
     "https://windingtree.com/ns/orgid/v1"
   ],
-  "id": "did:orgid:0x6385510a2174fb8358fdfb49db0085ed469377d9fe1a94d0ddcaf82dc4810d4c",
+  "id": "did:orgid:0x56e34fe286de62c4d15d536cef2d171f0cd380e38d77d33fd4a4f0c1257b5f9f",
   "created": "2020-06-30T14:37:05.137Z",
   "updated": "2020-06-30T14:37:05.137Z",
   "publicKey": [],
   "service": [
     {
-      "id": "did:orgid:0x6385510a2174fb8358fdfb49db0085ed469377d9fe1a94d0ddcaf82dc4810d4c#apiv1",
+      "id": "did:orgid:0x56e34fe286de62c4d15d536cef2d171f0cd380e38d77d33fd4a4f0c1257b5f9f#apiv1",
       "serviceEndpoint": "https://staging.api.simard.io/api/v1",
       "type": "simard",
       "version": "1",
