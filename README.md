@@ -26,4 +26,5 @@ Below is a list of projects operated by Simard.
 
 ### Simard Pay
 
-TBD
+`did:orgid:0xb5cd9c2be7774d1729e21d6534f9c0a0e9a40bd6c7259896cf55db9962ced5b4`
+`https://raw.githubusercontent.com/windingtree/orgids/master/simard-pay.json`
