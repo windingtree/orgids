@@ -46,6 +46,18 @@
     "type": [
       "travel aggregator"
     ],
-    "description": ""
+    "description": "",
+    "address": {
+      "country": "",
+      "subdivision": "",
+      "locality": "",
+      "postalCode": "",
+      "streetAddress": "",
+      "premise": "",
+      "gps": "",
+      "geocodes": []
+    },
+    "contacts": [],
+    "media": {}
   }
 }
