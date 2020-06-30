@@ -13,7 +13,7 @@
       {
         "type": "dns",
         "claim": "simard.io",
-        "proof": "txt"
+        "proof": "TXT"
       },
       {
         "type": "domain",
@@ -39,7 +39,8 @@
       "subdivision": "EE-37",
       "locality": "Tallinn",
       "postalCode": "10115",
-      "streetAddress": "Tartu mnt 67/1-13b"
+      "streetAddress": "Tartu mnt 67/1-13b",
+      "premise": ""
     },
     "locations": [],
     "contacts": []
