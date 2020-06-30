@@ -16,15 +16,15 @@ Below is a list of projects operated by Simard.
 
 ### Glider Travel
 
-`did:orgid:0x34dea2f4f739c43af35f6ffa82284d28280997ad26408b9e3d61525ec95b442e`
-`https://raw.githubusercontent.com/windingtree/orgids/master/glider-travel.json`
+- `did:orgid:0x34dea2f4f739c43af35f6ffa82284d28280997ad26408b9e3d61525ec95b442e`
+- `https://raw.githubusercontent.com/windingtree/orgids/master/glider-travel.json`
 
 ### Glider Aggregator
 
-`did:orgid:0xa8eacc80e138a30cd86002f12f5f324a3f2214b1fefc833435901ab6189579bb`
-`https://raw.githubusercontent.com/windingtree/orgids/master/glider-aggregator.json`
+- `did:orgid:0xa8eacc80e138a30cd86002f12f5f324a3f2214b1fefc833435901ab6189579bb`
+- `https://raw.githubusercontent.com/windingtree/orgids/master/glider-aggregator.json`
 
 ### Simard Pay
 
-`did:orgid:0xb5cd9c2be7774d1729e21d6534f9c0a0e9a40bd6c7259896cf55db9962ced5b4`
-`https://raw.githubusercontent.com/windingtree/orgids/master/simard-pay.json`
+- `did:orgid:0xb5cd9c2be7774d1729e21d6534f9c0a0e9a40bd6c7259896cf55db9962ced5b4`
+- `https://raw.githubusercontent.com/windingtree/orgids/master/simard-pay.json`
