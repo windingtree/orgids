@@ -17,7 +17,21 @@
       "docs": "https://production.api.simard.io/api/docs/"
     }
   ],
-  "trust": {},
+  "trust": {
+    "assertions": [
+      {
+        "type": "dns",
+        "claim": "simard.io",
+        "proof": "TXT"
+      },
+      {
+        "type": "domain",
+        "claim": "simard.io",
+        "proof": "https://simard.io/orgid.txt"
+      }
+    ],
+    "credentials": []
+  },
   "organizationalUnit": {
     "name": "Simard Pay",
     "type": [
