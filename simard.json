@@ -1,0 +1,47 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://windingtree.com/ns/orgid/v1"
+  ],
+  "id": "did:orgid:0x07493f25bb5610951bd8b3b10fcd271abc69e45817d170d1dcb60076ee699b1a",
+  "created": "2020-06-30T10:06:42.645Z",
+  "updated": "2020-06-30T10:06:42.645Z",
+  "publicKey": [],
+  "service": [],
+  "trust": {
+    "assertions": [
+      {
+        "type": "dns",
+        "claim": "simard.io",
+        "proof": "txt"
+      },
+      {
+        "type": "domain",
+        "claim": "simard.io",
+        "proof": "https://simard.io/orgid.txt"
+      }
+    ],
+    "credentials": []
+  },
+  "legalEntity": {
+    "legalName": "Simard OÜ",
+    "alternativeName": "Simard",
+    "legalIdentifier": "EE102233584",
+    "identifiers": [
+      {
+        "type": "IATA",
+        "value": "63320235"
+      }
+    ],
+    "legalType": "Limited Company",
+    "registeredAddress": {
+      "country": "EE",
+      "subdivision": "EE-37",
+      "locality": "Tallinn",
+      "postalCode": "10115",
+      "streetAddress": "Tartu mnt 67/1-13b"
+    },
+    "locations": [],
+    "contacts": []
+  }
+}
