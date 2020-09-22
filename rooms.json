@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://windingtree.com/ns/orgid/v1"
+  ],
+  "id": "did:orgid:0x0b33e46b5cd994f8f9fc3142d67e7ca45a0011d520227a5f4696c09264547175",
+  "created": "2020-09-22T11:04:12.523Z",
+  "organizationalUnit": {
+    "name": "Rooms",
+    "type": [
+      "property management system",
+      "inventory management system",
+      "PMS",
+      "IMS",
+      "channel manager"
+    ],
+    "description": "Rooms is a modern hotel inventory management system with built-in channel manager",
+    "contacts": [
+      {
+        "website": "rooms.windingtree.com",
+        "email": "rooms@windingtree.com"
+      }
+    ]
+  },
+  "publicKey": [
+    {
+      "id": "did:orgid:0x0b33e46b5cd994f8f9fc3142d67e7ca45a0011d520227a5f4696c09264547175#webserver",
+      "type": "secp256k1",
+      "controller": "did:orgid:0x0b33e46b5cd994f8f9fc3142d67e7ca45a0011d520227a5f4696c09264547175",
+      "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEhHBQqxREnomk83TtTBuhv92RnFRY0m99YHJZx0YnSbIC64czXp5bw2p/NTMmcoF3iDXah/62K7fd8jd71X2l/w==",
+      "note": "First Key"
+    }
+  ],
+  "service": [
+    {
+      "id": "did:orgid:0x0b33e46b5cd994f8f9fc3142d67e7ca45a0011d520227a5f4696c09264547175#apiv1",
+      "serviceEndpoint": "https://rooms.windingtree.com/api/v1",
+      "type": "rooms",
+      "version": "1",
+      "description": "Rooms API",
+      "docs": "https://rooms.windingtree.com/api/docs/"
+    }
+  ],
+  "trust": {
+    "assertions": [
+      {
+        "type": "dns",
+        "claim": "rooms.windingtree.com",
+        "proof": "TXT"
+      },
+      {
+        "type": "domain",
+        "claim": "rooms.windingtree.com",
+        "proof": "https://rooms.windingtree.com/orgid.txt"
+      }
+    ]
+  },
+  "updated": "2020-09-22T11:56:59.927Z"
+}
