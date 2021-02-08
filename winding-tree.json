@@ -6,19 +6,31 @@
   "id": "did:orgid:0xcfdb769eafae259e58028ba25ab70ce539731b593c08b780e5275c723132d206",
   "created": "2020-06-30T14:37:00.416Z",
   "updated": "2020-06-30T14:37:00.416Z",
-  "publicKey": [],
-  "service": [],
+  "publicKey": [
+    {
+      "id": "did:orgid:0xcfdb769eafae259e58028ba25ab70ce539731b593c08b780e5275c723132d206#key1",
+      "type": "secp256k1",
+      "controller": "did:orgid:0xcfdb769eafae259e58028ba25ab70ce539731b593c08b780e5275c723132d206",
+      "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAErUogy9jxxUGs0pQoIZ02P96OTaPSgs4PKuVb90N7nR+MKVxcPQcx+N9ti+4uVi6eM8i+k9bRvIpV5DBRnGDXxw==",
+      "note": "WindingTree Marketplace API key"
+    }
+  ],
+  "service": [
+    {
+      "description": "WindingTree Marketplace API",
+      "docs": "https://staging.marketplace.windingtree.com",
+      "id": "did:orgid:0xcfdb769eafae259e58028ba25ab70ce539731b593c08b780e5275c723132d206#apiv1",
+      "serviceEndpoint": "https://staging-api.marketplace.windingtree.com/api/v1",
+      "type": "marketplace",
+      "version": "1"
+    }
+  ],
   "trust": {
     "assertions": [
       {
-        "type": "dns",
-        "claim": "windingtree.com",
-        "proof": "TXT"
-      },
-      {
         "type": "domain",
-        "claim": "windingtree.com",
-        "proof": "https://windingtree.com/orgid-ropsten.txt"
+        "claim": "staging.marketplace.windingtree.com",
+        "proof": "https://staging.marketplace.windingtree.com/orgid-ropsten.txt"
       }
     ],
     "credentials": []
