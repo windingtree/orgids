@@ -45,7 +45,6 @@
     "locations": [],
     "contacts": [
       {
-          "phone": "<ADD_IF_REQUIRED>",
           "email": "hi@windingtree.com",
           "website": "https://windingtree.com/",
           "telegram": "https://t.me/windingtree",
@@ -53,7 +52,7 @@
       }
     ],
     "media": {
-      "logo": "https://images.squarespace-cdn.com/content/v1/5eb7f4828b5a4f0e027b4c23/1593592099038-C3SJES2ICK2MQPWTDI7W/ke17ZwdGBToddI8pDm48kLB-8aWPDewLRapILuIjBTcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnGfTMSE6CNM02yWj-DQ-td_JmY1e0Bpo9PxhXGbhA2t1tdydY-VNoqQusgtDAD1MgQ/logo+footer+%282%29.png"
+      "logo": "https://github.com/windingtree/branding/raw/master/winding-tree/png/winding-tree-logo.png"
     }
   }
 }
