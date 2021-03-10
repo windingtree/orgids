@@ -6,7 +6,15 @@
   "id": "did:orgid:0xe2c2ca3e9bd7c371c57cb97c50d6006b3e6b4eb26356894ecf0b50afc667c672",
   "created": "2021-03-10T15:04:12.158Z",
   "updated": "2021-03-10T15:04:12.158Z",
-  "publicKey": [],
+  "publicKey": [
+    {
+      "id": "did:orgid:0xe2c2ca3e9bd7c371c57cb97c50d6006b3e6b4eb26356894ecf0b50afc667c672#key1",
+      "type": "secp256k1",
+      "controller": "did:orgid:0xe2c2ca3e9bd7c371c57cb97c50d6006b3e6b4eb26356894ecf0b50afc667c672",
+      "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEyd2PHJ3MqqNNTOwMCCk+baai0X4UsDKJaKvKEdGLqFL0kYV80YtdVGxSpBIfdBpEtDsFNsAO2n7p2A0aOQMZkQ==",
+      "note": "Key1"
+    }
+  ],
   "service": [],
   "trust": {
     "assertions": [
@@ -22,7 +30,7 @@
       },
       {
         "type": "social",
-        "claim": "linkedin.com/feed",
+        "claim": "linkedin.com",
         "proof": "https://www.linkedin.com/feed/update/urn:li:activity:6688359126143127552"
       }
     ],
@@ -48,7 +56,8 @@
           "email": "hi@windingtree.com",
           "website": "https://windingtree.com/",
           "telegram": "https://t.me/windingtree",
-          "facebook": "https://facebook.com/WindingTree"
+          "facebook": "https://facebook.com/WindingTree",
+          "linkedin": "https://www.linkedin.com/company/winding-tree"
       }
     ],
     "media": {
