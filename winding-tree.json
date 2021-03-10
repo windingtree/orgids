@@ -4,8 +4,8 @@
     "https://windingtree.com/ns/orgid/v1"
   ],
   "id": "did:orgid:0xe2c2ca3e9bd7c371c57cb97c50d6006b3e6b4eb26356894ecf0b50afc667c672",
-  "created": "2020-06-30T10:08:40.518Z",
-  "updated": "2020-06-30T10:08:40.518Z",
+  "created": "2021-03-10T15:04:12.158Z",
+  "updated": "2021-03-10T15:04:12.158Z",
   "publicKey": [],
   "service": [],
   "trust": {
@@ -18,7 +18,12 @@
       {
         "type": "domain",
         "claim": "windingtree.com",
-        "proof": "https://windingtree.com/orgid.txt"
+        "proof": "https://windingtree.com/orgid"
+      },
+      {
+        "type": "social",
+        "claim": "linkedin.com/feed",
+        "proof": "https://www.linkedin.com/feed/update/urn:li:activity:6688359126143127552"
       }
     ],
     "credentials": []
@@ -38,6 +43,17 @@
       "premise": "11"
     },
     "locations": [],
-    "contacts": []
+    "contacts": [
+      {
+          "phone": "<ADD_IF_REQUIRED>",
+          "email": "hi@windingtree.com",
+          "website": "https://windingtree.com/",
+          "telegram": "https://t.me/windingtree",
+          "facebook": "https://facebook.com/WindingTree"
+      }
+    ],
+    "media": {
+      "logo": "https://images.squarespace-cdn.com/content/v1/5eb7f4828b5a4f0e027b4c23/1593592099038-C3SJES2ICK2MQPWTDI7W/ke17ZwdGBToddI8pDm48kLB-8aWPDewLRapILuIjBTcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnGfTMSE6CNM02yWj-DQ-td_JmY1e0Bpo9PxhXGbhA2t1tdydY-VNoqQusgtDAD1MgQ/logo+footer+%282%29.png"
+    }
   }
 }
