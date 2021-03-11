@@ -4,9 +4,17 @@
     "https://windingtree.com/ns/orgid/v1"
   ],
   "id": "did:orgid:0xb5cd9c2be7774d1729e21d6534f9c0a0e9a40bd6c7259896cf55db9962ced5b4",
-  "created": "2020-06-30T12:39:53.710Z",
-  "updated": "2020-06-30T12:39:53.710Z",
-  "publicKey": [],
+  "created": "2021-03-11T21:26:02.488Z",
+  "updated": "2021-03-11T21:26:02.488Z",
+  "publicKey": [
+    {
+      "id": "did:orgid:0xb5cd9c2be7774d1729e21d6534f9c0a0e9a40bd6c7259896cf55db9962ced5b4#key1",
+      "type": "secp256k1",
+      "controller": "did:orgid:0xb5cd9c2be7774d1729e21d6534f9c0a0e9a40bd6c7259896cf55db9962ced5b4",
+      "publicKeyPem": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEL+obhw5FBlMzfVUFNQ3nVQd3IB0ymhoqwjNIRfnAtdMtI02ob4wOgiJcT01seCO74d/w7MlaFnYSvya7Jvzuhg==",
+      "note": "Key1"
+    }
+  ],
   "service": [
     {
       "id": "did:orgid:0xb5cd9c2be7774d1729e21d6534f9c0a0e9a40bd6c7259896cf55db9962ced5b4#apiv1",
@@ -46,9 +54,14 @@
       "streetAddress": "Tartu mnt",
       "premise": "67/1-13b"
     },
-    "contacts": [],
+    "contacts": [
+      {
+        "email": "hello@simard.io",
+        "website": "https://simard.io"
+      }
+    ],
     "media": {
-      "logo": "https://glider.travel/images/logo_violet.png"
+      "logo": "https://simard.io/images/logo_marketplace.png"
     }
   }
 }
